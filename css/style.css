@@ -14,13 +14,13 @@ body {
 @media screen and (min-width: 1000px) {
 	.main {
 		height: 700px;
-		background-image: url(img/bg_01.jpg);
+		background-image: url(../img/bg_01.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	.container {
+	#home {
 		height: 700px;
 		width: 1000px;
 		margin: 0 auto;
@@ -36,13 +36,13 @@ body {
 	.main {
 		height: 100%;
 		width: 100%;
-		background-image: url(img/bg_01.jpg);
+		background-image: url(../img/bg_01.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 
-	.container {
+	#home {
 		height: 700px;
 		width: 400px;
 		margin: 0 auto;
