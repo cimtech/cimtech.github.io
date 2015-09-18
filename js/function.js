@@ -18,3 +18,28 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Typed functions
+$(function(){
+
+    $("#typed").typed({
+        strings: ["Tecnológicas.", "Inovadoras.", "Web.", "Mobile.", "Tecnológicas."],
+        //stringsElement: $('.intro-lead-in'),
+        typeSpeed: 50,
+        backDelay: 600,
+        loop: false,
+        contentType: 'html', // or text
+        // defaults to false for infinite loop
+        loopCount: false,
+        callback: function(){ foo(); },
+        resetCallback: function() { newTyped(); }
+    });
+
+    $(".reset").click(function(){
+        $("#typed").typed('reset');
+    });
+
+});
+
+function newTyped(){ /* A new typed object */ }
+function foo(){ console.log("Callback"); }
