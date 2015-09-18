@@ -300,7 +300,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/bg_01a.jpg);
+    background-image: url(../img/header-note-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -749,7 +749,7 @@ section#contact .text-danger {
 }
 
 footer {
-    background-image: url(../img/bg_01a.jpg);
+    background-image: url(../img/header-note-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
