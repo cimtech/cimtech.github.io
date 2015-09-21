@@ -23,11 +23,11 @@ $('.navbar-collapse ul li a').click(function() {
 $(function(){
 
     $("#typed").typed({
-        strings: ["Tecnológicas.", "Inovadoras.", "Web.", "Mobile.", "Tecnológicas."],
+        strings: ["Tecnológicas.", "Inovadoras.", "Web.", "Mobile."],
         //stringsElement: $('.intro-lead-in'),
         typeSpeed: 50,
         backDelay: 600,
-        loop: false,
+        loop: true,
         contentType: 'html', // or text
         // defaults to false for infinite loop
         loopCount: false,
