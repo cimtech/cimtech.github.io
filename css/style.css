@@ -748,6 +748,17 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+section#about a.link-contact {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+section#about a.link-contact:hover {
+    text-decoration: none;
+}
+
 footer {
     background-image: url(../img/header-note-bg.jpg);
     background-position: center center;
